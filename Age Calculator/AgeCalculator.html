@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age Calculator</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="AgeCalculator.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">	
+</head>
+<body>
+
+<ul>
+  <li><a href=""> <i class="fab fa-pagelines"></i> Age Calculator</a></li>
+</ul>
+
+<div id="calculator">
+	<i class="fab fa-pagelines fa-3x"></i>
+	<p>Enter your age and find out how many days you've been alive!</p>
+
+	<input type= "number" id="number" min="0" placeholder=" your age in digits" action="" method="post">
+	<button id= "hitButton" class="myButton"> HIT ME!</button>
+	<button onclick="document.getElementById('number').value = ''" id= "resetButton" class="myButton"> RESET</button>
+	
+</div>
+
+<div class="resultMessage" style="display:none;"></div>
+<script type="text/javascript" src="AgeCalculator.js"></script>
+
+</body>
+</html>
